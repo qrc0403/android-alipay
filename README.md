@@ -1,5 +1,8 @@
 # android-alipay
 
+[![Build Status](https://cloud.drone.io/api/badges/v7lin/android-alipay/status.svg)](https://cloud.drone.io/v7lin/android-alipay)
+[ ![Download](https://api.bintray.com/packages/v7lin/maven/alipay-android/images/download.svg) ](https://bintray.com/v7lin/maven/alipay-android/_latestVersion)
+
 ### snapshot
 
 ````
