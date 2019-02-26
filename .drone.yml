@@ -35,6 +35,8 @@ steps:
   commands:
   - ./gradlew :alipay-android:clean :alipay-android:install :alipay-android:artifactoryPublish
   when:
+    branch:
+    - master
     event:
     - push
 
