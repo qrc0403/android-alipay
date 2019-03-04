@@ -2,6 +2,9 @@
 
 #-ignorewarnings
 
+# 补充
+-dontwarn com.alipay.android.phone.mrpc.core.**
+
 -keep class com.alipay.android.app.IAlixPay{*;}
 -keep class com.alipay.android.app.IAlixPay$Stub{*;}
 -keep class com.alipay.android.app.IRemoteServiceCallback{*;}
@@ -12,7 +15,6 @@
     <fields>;
     <methods>;
 }
--dontwarn com.alipay.android.phone.mrpc.core.**
 -keep class com.alipay.android.phone.mrpc.core.** { *; }
 -keep class com.alipay.apmobilesecuritysdk.** { *; }
 -keep class com.alipay.mobile.framework.service.annotation.** { *; }
