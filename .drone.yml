@@ -25,7 +25,7 @@ steps:
   - name: gradle
     path: /root/.gradle
   environment:
-    PUBLISH_TO_JFROG: true
+    PUBLISH_TO_JFROG: false
     BINTRAY_USER:
       from_secret: BINTRAY_USER
     BINTRAY_API_KEY:
@@ -46,7 +46,7 @@ steps:
   - name: gradle
     path: /root/.gradle
   environment:
-    PUBLISH_TO_JCENTER: true
+    PUBLISH_TO_JCENTER: false
     BINTRAY_USER:
       from_secret: BINTRAY_USER
     BINTRAY_API_KEY:

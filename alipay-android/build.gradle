@@ -32,9 +32,14 @@ android {
         }
     }
 }
-
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
+    implementation(name: 'alipaySdk-15.7.5-20200422171619', ext: 'aar')
 }
 
 apply from: '../publish.gradle'
